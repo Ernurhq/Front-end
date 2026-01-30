@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Toggle</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .highlight { background: yellow;}
+    </style>
+</head>
+<body>
+    <button id="toggleBtn">Переключить выделение</button>
+    <p id="text">Этот текст будет менять цвет фона.</p>
+
+    <script>
+        $(document).ready(function() {
+            // Прямая манипуляция DOM через jQuery
+            $('#toggleBtn').click(function() {
+                $('#text').toggleClass('highlight');
+            });
+        });
+    </script>
+</body>
+</html>
