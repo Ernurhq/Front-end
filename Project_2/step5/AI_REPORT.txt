@@ -1,0 +1,30 @@
+AI Usage Report
+Student: Musaev Ernur
+
+Course: Front-end Web Development (AlmaU)
+
+Assignment: Lab 12: Styling & Responsive Layouts
+
+1. Nature of AI Assistance:
+The AI (Gemini) was used exclusively as a technical consultant and debugging tool. All component logic, architecture, and styling were implemented manually based on the course materials (React and React Native, Ch. 18).
+
+2. Specific Tasks Performed with AI:
+
+Error Resolution: Assisted in diagnosing and fixing TypeScript module resolution errors (TS2307) related to missing type declarations for react-native-safe-area-context.
+
+Formula Verification: Cross-checked the mathematical logic for calculating dynamic item widths in the GridLayout component to ensure pixel-perfect alignment on different screen sizes.
+
+Compatibility Check: Consulted on the correct implementation of Platform.select and StatusBar management to ensure the app complies with both iOS and Android design guidelines as per the lab requirements.
+
+3. Student’s Original Contribution:
+
+Manually created the project structure within the Project_2/step5 directory.
+
+Wrote the TypeScript interfaces and component structures for GridLayout, ResponsiveHeader, and AdaptiveLayout.
+
+Configured the Git repository and performed incremental commits to demonstrate the development process.
+
+Hand-coded the Flexbox styles (flexDirection, justifyContent, alignItems) to achieve the required responsive behavior.
+
+4. Ethical Statement:
+The final code was reviewed and tested by me. AI assistance was limited to clarifying complex technical concepts and resolving environment configuration issues, ensuring that the learning objectives of the laboratory work were fully met by the student.
